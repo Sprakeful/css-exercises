@@ -11,6 +11,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 28px;
+  font-weight: 1000;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .footer {
