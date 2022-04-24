@@ -11,12 +11,12 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-size: 28px;
-  font-weight: 1000;
+  font-size: 32px;
+  font-weight: 900;
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 0px 12px;
+  padding: 0px 16px;
 }
 
 .footer {
@@ -32,6 +32,8 @@ body {
   width: 300px;
   background: royalblue;
   min-width: 300px;
+  flex-shrink: none;
+  padding: 16px;
 }
 
 .card {
@@ -48,7 +50,7 @@ body {
 .content{
   display: flex;
   flex-wrap: wrap;
-  padding: 24px;
+  padding: 32px;
 }
 
 .middle{
@@ -61,7 +63,7 @@ ul{
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 a{
