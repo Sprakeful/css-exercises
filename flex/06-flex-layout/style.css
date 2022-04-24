@@ -38,12 +38,26 @@ a{
 .header{
   display: flex;
   justify-content: space-between;
+  padding: 6px;
 }
 
 ul{
   display: flex;
-  margin: 14px;
   padding: 0;
+  margin: 8px;
   gap: 14px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
 }
 
