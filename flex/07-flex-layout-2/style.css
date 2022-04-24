@@ -30,12 +30,24 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  min-width: 300px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  height: 300px;
+  margin: 14px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
 }
 
 .middle{
