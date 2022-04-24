@@ -35,3 +35,18 @@ body {
   flex-direction: row;
   flex-grow: 1;
 }
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li{
+  padding: 8px;
+}
